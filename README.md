@@ -13,9 +13,8 @@
 **A powerful cloud-based platform to upload, explore, and download videos**  
 Built with Next.js 14, TypeScript, and Clerk Authentication
 
-[Live Demo](https://vidstream-demo.vercel.app) • [Features](#-features) • [Installation](#️-installation--setup) • [Tech Stack](#-tech-stack)
+[Live Demo]((https://cloudinary-saas-app-chi.vercel.app/)) • [Features](#-features) • [Installation](#️-installation--setup) • [Tech Stack](#-tech-stack)
 
-![VidStream Banner](https://via.placeholder.com/1200x400/6366f1/ffffff?text=VidStream+-+Video+Platform)
 
 </div>
 
