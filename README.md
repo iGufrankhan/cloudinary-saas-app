@@ -252,16 +252,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <div align="center">
 
 ### 🏠 Landing Page
-![Landing Page](s1.png)
+![Landing Page](/public/s1.png)
 
 
 ### 🎥 Video Explorer
-![Video Explorer](<img width="1919" height="848" alt="image" src="https://github.com/user-attachments/assets/07eb2adf-d066-445d-84a5-a62a1c8dbf58" />
-)
+![Video Explorer](/public/s2.png)
+
 
 ### 📤 Upload Interface
-![Upload Interface](<img width="1917" height="853" alt="image" src="https://github.com/user-attachments/assets/73a1284d-11db-4616-81ec-3c1922c91696" />
-)
+![Upload Interface](/public/s3.png)
 
 </div>
 
