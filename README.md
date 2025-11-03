@@ -51,6 +51,7 @@ _(Replace with your deployed link once you deploy on [Vercel](https://vercel.com
 ```bash
 git clone https://github.com/your-username/vidstream.git
 cd vidstream
+```
 
 
 2️⃣ Install dependencies
