@@ -18,6 +18,10 @@ Built with Next.js 14, TypeScript, and Clerk Authentication
 
 </div>
 
+<div>
+  [![Streamlit App](https://img.shields.io/badge/Live%20App-Open%20Now-green?style=for-the-badge&logo=streamlit)](https://cloudinary-saas-app-chi.vercel.app/)
+</div>
+
 ---
 
 ## ✨ Features
