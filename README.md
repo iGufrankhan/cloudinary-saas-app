@@ -13,7 +13,7 @@
 **A powerful cloud-based platform to upload, explore, and download videos**  
 Built with Next.js 14, TypeScript, and Clerk Authentication
 
-[Live Demo]((https://cloudinary-saas-app-chi.vercel.app/)) • [Features](#-features) • [Installation](#️-installation--setup) • [Tech Stack](#-tech-stack)
+[Live Demo](https://cloudinary-saas-app-chi.vercel.app/) • [Features](#-features) • [Installation](#️-installation--setup) • [Tech Stack](#-tech-stack)
 
 
 </div>
