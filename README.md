@@ -236,7 +236,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-**Developed with ❤️ by [Your Name]**
+**Developed with ❤️ by [GUFRAN KHAN]**
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
@@ -252,7 +252,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <div align="center">
 
 ### 🏠 Landing Page
-![Landing Page](<img width="1912" height="855" alt="image" src="https://github.com/user-attachments/assets/ee5bdb06-33c4-4b36-ad9a-d8ea73fe8780" />
+![Landing Page](</"Screenshot 2025-11-03 230343.png">
 )
 
 ### 🎥 Video Explorer
