@@ -15,12 +15,11 @@ Built with Next.js 14, TypeScript, and Clerk Authentication
 
 [Live Demo](https://cloudinary-saas-app-chi.vercel.app/) • [Features](#-features) • [Installation](#️-installation--setup) • [Tech Stack](#-tech-stack)
 
-
-</div>
-
-<div>
-  [![Streamlit App](https://img.shields.io/badge/Live%20App-Open%20Now-green?style=for-the-badge&logo=streamlit)](https://cloudinary-saas-app-chi.vercel.app/)
-</div>
+<p align="center">
+  <a href="https://cloudinary-saas-app-chi.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20App-Open%20Now-green?style=for-the-badge&logo=streamlit" alt="Streamlit App"/>
+  </a>
+</p>
 
 ---
 
