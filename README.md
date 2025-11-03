@@ -252,8 +252,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <div align="center">
 
 ### 🏠 Landing Page
-![Landing Page](</"Screenshot 2025-11-03 230343.png">
-)
+![Landing Page](s1.png)
+
 
 ### 🎥 Video Explorer
 ![Video Explorer](<img width="1919" height="848" alt="image" src="https://github.com/user-attachments/assets/07eb2adf-d066-445d-84a5-a62a1c8dbf58" />
