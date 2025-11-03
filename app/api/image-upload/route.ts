@@ -15,33 +15,15 @@ interface CloudinaryUploadResult {
 }
 
 export async function POST(request: NextRequest) {
-       try {
-    const {userId} =  await auth()
-
-    if(!process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME ||
-       !process.env.CLOUDINARY_API_KEY ||
-       !process.env.CLOUDINARY_API_SECRET){
-        return NextResponse.json({error: "Cloudinary not configured"}, {status: 500})
-    }
-    
+    const {userId} =await auth()
 
     if (!userId) {
         return NextResponse.json({error: "Unauthorized"}, {status: 401})
     }
 
- 
+    try {
         const formData = await request.formData();
         const file = formData.get("file") as File | null;
-        const title = formData.get("title") as string ;
-        const description = formData.get("description") as string;
-        const originalSize = formData.get("originalSize") as string;
-        if(!title || !description || !originalSize){
-            return NextResponse.json({error: "Missing required fields"}, {status: 400})
-        }
-
-        
-
-
 
         if(!file){
             return NextResponse.json({error: "File not found"}, {status: 400})
