@@ -6,11 +6,24 @@ import { Video } from "@prisma/client";
 import VideoCard from "@/components/VideoCard";
 import { motion } from "framer-motion";
 import { Loader2, AlertCircle, Film } from "lucide-react";
+import { useUser } from "@clerk/nextjs";
 
 function Home() {
   const [videos, setVideos] = useState<Video[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const { isLoaded, isSignedIn } = useUser();
+
+  // Force reload on first sign-in to update UI
+  useEffect(() => {
+    if (isLoaded && isSignedIn) {
+      const hasReloaded = sessionStorage.getItem("hasReloadedAfterAuth");
+      if (!hasReloaded) {
+        sessionStorage.setItem("hasReloadedAfterAuth", "true");
+        window.location.reload();
+      }
+    }
+  }, [isLoaded, isSignedIn]);
 
   // Fetch videos from API
   const fetchVideos = useCallback(async () => {
@@ -30,8 +43,12 @@ function Home() {
   }, []);
 
   useEffect(() => {
-    fetchVideos();
-  }, [fetchVideos]);
+    if (isLoaded && isSignedIn) {
+      fetchVideos();
+    } else if (isLoaded && !isSignedIn) {
+      setLoading(false);
+    }
+  }, [fetchVideos, isLoaded, isSignedIn]);
 
   // Download video function
   const handleDownload = useCallback((url: string, title: string) => {
@@ -45,7 +62,7 @@ function Home() {
   }, []);
 
   // Loading State
-  if (loading) {
+  if (loading || !isLoaded) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen text-gray-600">
         <Loader2 className="animate-spin w-12 h-12 mb-4 text-blue-500" />

@@ -4,8 +4,8 @@ import { NextResponse } from 'next/server';
 const isPublicRoute = createRouteMatcher([
     "/sign-in",
     "/sign-up",
-    "/",
-    "/home"
+    "/"
+   
     
 ])
 const isPublicApiRoute = createRouteMatcher([
@@ -21,6 +21,7 @@ export default clerkMiddleware(async (auth, req) => {
 
      // If user is logged in and accessing a public route but not the dashboard
     if(userId && isPublicRoute(req) && !isAccessingDashboard) {
+        
         return NextResponse.redirect(new URL("/home", req.url))
     }
     //not logged in
